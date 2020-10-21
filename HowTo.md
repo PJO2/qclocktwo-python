@@ -114,9 +114,13 @@ Le raspberry ne semble pas posséder d'entrée analogique, ce qui aurait été p
 [https://iot4beginners.com/measure-the-intensity-of-light-using-a-photocell/](https://iot4beginners.com/measure-the-intensity-of-light-using-a-photocell/)
 
 On chaîne une résistance de 200 Ω, avec une photo résistance du type 5516 (bright=5kΩ, dark=200kΩ) et une capacité de 47µF.
+Le raspberry est branché entre la photo résistance et la capacité :
+![drivers](https://github.com/PJO2/qclocktwo/raw/master/photoresistor.png)
 
+La capacité s'opposant au passage du courant, le raspberry doit voir la patte GPIO04 à l'état haut.
+L'idée est de forcer l'état à 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjg5MDEzMywyMDI4NjY1MzA3LC04Nz
-gzNzI0MjAsMTE0MjA1MDMxMSwtMTA4MTE3MDA0MiwyMDMzNzUy
-MTU5LC0zOTkzODMzMzRdfQ==
+eyJoaXN0b3J5IjpbLTg2MzczNTE3MSwyMDM2ODkwMTMzLDIwMj
+g2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzExLC0xMDgxMTcw
+MDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
 -->
