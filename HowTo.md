@@ -174,9 +174,12 @@ root@raspberrypi:/home/pi/lum#
 ```
 ## affichage ruban de leds
 
-C'est la librairie rpi-ws281x qui se charge de tout, il suffit de 
+C'est la librairie rpi-ws281x qui se charge de tout, il suffit de gérer les couleurs dans un tableau et la librairie synchronise les données du tableau avec l'état du ruban de leds.
+
+Par exemple, le programme suivant affiche les couleurs du violet à l'o
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxNjEyOTAxLC0xODY4NTg2NSwyMDM2OD
-kwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzEx
-LC0xMDgxMTcwMDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
+eyJoaXN0b3J5IjpbMTQzMTc1MjE2NiwtMTg2ODU4NjUsMjAzNj
+g5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMx
+MSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ
+==
 -->
