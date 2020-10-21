@@ -97,6 +97,7 @@ pip3 install rpi_ws281x adafruit-circuitpython-neopixel
 Conformément à l'image
 ![drivers](https://github.com/PJO2/qclocktwo/raw/master/branchement.png)
 
+
 ## mise à l'heure
 
 Le raspberry se met à l'heure via NTP. Il reste à lui configurer le bon fuseau horaire.
@@ -106,7 +107,12 @@ raspi-config
        - I2 Change Time Zone
             - choisir Europe/Paris
 
+
+## lecture de la luminosité
+
+Le raspberry ne semble pas posséder d'
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzODg3MzAsLTEwODExNzAwNDIsMjAzMz
-c1MjE1OSwtMzk5MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbMjA1NDc2Njc2OSwtMTA4MTE3MDA0MiwyMD
+MzNzUyMTU5LC0zOTkzODMzMzRdfQ==
 -->
