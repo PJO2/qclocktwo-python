@@ -52,7 +52,7 @@ Bref, il faut arriver à ça :
 Ainsi, on peut se connecter au raspberry, soit par le wifi, soit par le port USB à l'adresse raspberry.local (c'est le service bonjour qui résout ce nom), par ssh pi@raspberry.local.
 
 
-## Utilisation de file system RAM
+## Utilisation de file systems RAM
 
 Pour éviter les écritures en flash, certains répertoires sont déplacés vers des file systems en RAM (format tmpfs).
 Le petit script ci-dessous fait le boulot :
@@ -93,6 +93,10 @@ pip3 install rpi_ws281x adafruit-circuitpython-neopixel
 
 ```
 ## Branchements
+
+Le GPIO du Raspberry est 
+![drivers](https://github.com/PJO2/qclocktwo/raw/master/Raspberry-Pi-Model-Zero-Mini-PC-500x405.jpg)
+
 
 Conformément à l'image
 ![drivers](https://github.com/PJO2/qclocktwo/raw/master/branchement.png)
@@ -208,8 +212,8 @@ Le changement du compte wifi peut-être en se connectant au raspberry  par l'un 
 Ce paramètre est situé en début du programme qclock.py. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY0MTkyNDYsLTE1NzYxNjcwMzMsMT
-QyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5MDEzMywyMDI4NjY1
-MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMSwtMTA4MTE3MDA0Mi
-wyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ==
+eyJoaXN0b3J5IjpbMjI3MTE4NzUyLC0xMjU2NDE5MjQ2LC0xNT
+c2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAx
+MzMsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEsLT
+EwODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
 -->
