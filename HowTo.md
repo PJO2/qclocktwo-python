@@ -53,6 +53,19 @@ Bref, il faut arriver à ça :
 ## Utilisation de file system RAM
 
 Pour éviter les écritures en flash, certains répertoires sont déplacés vers des file systems en RAM (format tmpfs).
+Le petit script ci-dessous fait le boulot :
+
+```
+cat >> /etc/fstab <<EOF  
+tmpfs /tmp tmpfs defaults,noatime,nosuid,size=10m 0 0  
+tmpfs /var/log tmpfs defaults,noatime,nosuid,mode=0755,size=25m 0 0  
+tmpfs /var/run tmpfs defaults,noatime,nosuid,mode=0755,size=2m 0 0  
+EOF
+
+rm -r /var/tmp  
+ln -s /var/tmp /tmp  
+ln -s /var/spool/mqueue /tmp
+```
 
 
 ## Possibilité de passer en systemd
@@ -60,6 +73,7 @@ avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
 
 Seule modification LinkLocalAddress=yes au lieu de IPv4 pour utiliser IPv6 en link local.
 
+Il reste un pb à régler : 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQ3MjQ5MzFdfQ==
+eyJoaXN0b3J5IjpbLTM4MTI4MTc2NF19
 -->
