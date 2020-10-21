@@ -183,9 +183,11 @@ Par exemple, le programme suivant affiche les couleurs du violet à l'orange en 
 
 ## Ecrire l'heure
 
-Le programme display_time associe l'heure aux différents 
+Le programme display_time associe l'heure courante aux différents symboles à afficher et écrit ces symboles.
+Il suffit ensuite d'envoyer ces symboles au ruban de leds.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzc4NTI2MSwxNDI3NjU5NzgwLC0xOD
+eyJoaXN0b3J5IjpbLTg0NjA4MDUxMSwxNDI3NjU5NzgwLC0xOD
 Y4NTg2NSwyMDM2ODkwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQy
 MCwxMTQyMDUwMzExLC0xMDgxMTcwMDQyLDIwMzM3NTIxNTksLT
 M5OTM4MzMzNF19
