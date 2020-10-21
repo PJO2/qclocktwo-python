@@ -9,6 +9,12 @@ Matériel :
 
 
 # Préparation Raspberry
+
+Branche Buster
+Passage en systemd :
+[https://hackaday.io/project/162164/instructions](https://hackaday.io/project/162164/instructions)
+
+Seul modifcation LinkLocalAddress=yes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjUyMjQ2MzhdfQ==
+eyJoaXN0b3J5IjpbLTgzMDA4OTExMl19
 -->
