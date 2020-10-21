@@ -219,10 +219,11 @@ Il suffit ensuite d'envoyer ces symboles au ruban de leds.
 La crontab est chargée de réveiller le display toutes les minutes. Elle lance également la mesure de la luminosité.
 Comme on ne veut pas attendre la mesure, on se base sur le résultat précédent, ce qui ne devrait pas être très gênant.
 
+Evidemment, la mesure de la luminosité est écrite dans un file system en tmpfs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE4NTQ0MDYsLTIwMzc3MTU3ODUsLT
-EyNTY0MTkyNDYsLTE1NzYxNjcwMzMsMTQyNzY1OTc4MCwtMTg2
-ODU4NjUsMjAzNjg5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0Mj
-AsMTE0MjA1MDMxMSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0z
-OTkzODMzMzRdfQ==
+eyJoaXN0b3J5IjpbOTQ5OTQ0MjQwLC0yMDcxODU0NDA2LC0yMD
+M3NzE1Nzg1LC0xMjU2NDE5MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2
+NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMwNy
+wtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEwODExNzAwNDIsMjAz
+Mzc1MjE1OSwtMzk5MzgzMzM0XX0=
 -->
