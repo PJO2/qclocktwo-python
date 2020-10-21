@@ -3,8 +3,8 @@
 
 Matériel :
 - Un raspberry pi zéro W
-- Un ruban de Leds
-- Une photo résistance
+- Un ruban de Leds ws2813
+- Une photo résistance 5516
 - Un condensateur 47µF (entre 10 et 100)
 
 
@@ -183,12 +183,16 @@ Par exemple, le programme suivant affiche les couleurs du violet à l'orange en 
 
 ## Ecrire l'heure
 
-Le programme display_time associe l'heure courante aux différents symboles à afficher et écrit ces symboles.
+Le programme `display_time.py` associe l'heure courante aux différents symboles à afficher et écrit ces symboles.
 Il suffit ensuite d'envoyer ces symboles au ruban de leds.
 
+
+# Le chaînage des programmes
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NjA4MDUxMSwxNDI3NjU5NzgwLC0xOD
-Y4NTg2NSwyMDM2ODkwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQy
-MCwxMTQyMDUwMzExLC0xMDgxMTcwMDQyLDIwMzM3NTIxNTksLT
-M5OTM4MzMzNF19
+eyJoaXN0b3J5IjpbLTE1NzYxNjcwMzMsMTQyNzY1OTc4MCwtMT
+g2ODU4NjUsMjAzNjg5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0
+MjAsMTE0MjA1MDMxMSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC
+0zOTkzODMzMzRdfQ==
 -->
