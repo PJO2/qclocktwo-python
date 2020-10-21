@@ -33,7 +33,8 @@ Edition des fichiers suivants dans le file system éditable (/boot)
 - config.txt : ajout de `dtoverlay=dwc2` en fin de fichier
 
 
-Transférer la flash sur le raspberry zero démarrer (c'est assez long)
+Transférer la flash sur le raspberry zero.
+Brancher le port USB du raspberry sur un port USB du PC (ne pas brancher le port power) et démarrer le raspberry (c'est assez long)
 
 ## Préparation PC
 
@@ -48,5 +49,5 @@ Seul modifcation LinkLocalAddress=yes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg1MjQ1MzcsLTgzMDA4OTExMl19
+eyJoaXN0b3J5IjpbLTE1NjEyNTQwNzksLTgzMDA4OTExMl19
 -->
