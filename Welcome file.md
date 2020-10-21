@@ -10,11 +10,12 @@ Matériel :
 
 # Préparation Raspberry
 
+Récupération de l'OS 
 Branche Buster
 Passage en systemd :
 [https://hackaday.io/project/162164/instructions](https://hackaday.io/project/162164/instructions)
 
 Seul modifcation LinkLocalAddress=yes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMDA4OTExMl19
+eyJoaXN0b3J5IjpbNDM2MDQxNDg5LC04MzAwODkxMTJdfQ==
 -->
