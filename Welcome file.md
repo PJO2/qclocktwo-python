@@ -33,12 +33,13 @@ Edition des fichiers suivants dans le file system éditable (/boot)
 - config.txt : ajout de `dtoverlay=dwc2` en fin de fichier
 
 
-Transférer la flash sur le raspberry zero et démarrer (c'est assez long)
+Transférer la flash sur le raspberry zero démarrer (c'est assez long)
 
 ## Préparation PC
 
-Pendant le boot du raspberru, récupérer le 
+Pendant le boot du raspberry, installer le service Bonjour sur le PC, à partir du site [d'apple](https://support.apple.com/kb/DL999)
 
+Pendant le démarrage,  
 
 ## Possibilité de passer en systemd
 avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
@@ -47,5 +48,5 @@ Seul modifcation LinkLocalAddress=yes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDQ1MDQyOSwtODMwMDg5MTEyXX0=
+eyJoaXN0b3J5IjpbLTEwMzg1MjQ1MzcsLTgzMDA4OTExMl19
 -->
