@@ -94,11 +94,10 @@ pip3 install rpi_ws281x adafruit-circuitpython-neopixel
 ```
 ## Branchements
 
-Le GPIO du Raspberry est 
+Le GPIO du Raspberry est câble de la façon suivante :
 ![drivers](https://github.com/PJO2/qclocktwo/raw/master/Raspberry-Pi-Model-Zero-Mini-PC-500x405.jpg)
 
-
-Conformément à l'image
+Nous utilisons le port PWM pour communiquer avec le ruban de leds et un port numérique, conformément à l'image
 ![drivers](https://github.com/PJO2/qclocktwo/raw/master/branchement.png)
 
 
@@ -185,6 +184,8 @@ Par exemple, le programme suivant affiche les couleurs du violet à l'orange en 
 ![nuances](https://github.com/PJO2/qclocktwo/raw/master/nuances.png)
 
 
+
+
 ## Ecrire l'heure
 
 Le programme `display_time.py` associe l'heure courante aux différents symboles à afficher et écrit ces symboles.
@@ -212,8 +213,8 @@ Le changement du compte wifi peut-être en se connectant au raspberry  par l'un 
 Ce paramètre est situé en début du programme qclock.py. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3MTE4NzUyLC0xMjU2NDE5MjQ2LC0xNT
-c2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAx
-MzMsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEsLT
-EwODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbLTY4OTIwNjYxMSwtMTI1NjQxOTI0NiwtMT
+U3NjE2NzAzMywxNDI3NjU5NzgwLC0xODY4NTg2NSwyMDM2ODkw
+MTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzExLC
+0xMDgxMTcwMDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
 -->
