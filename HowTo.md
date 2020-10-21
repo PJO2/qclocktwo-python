@@ -199,11 +199,13 @@ Il suffit ensuite d'envoyer ces symboles au ruban de leds.
 Le changement du compte wifi peut-être en se connectant au raspberry  par l'un des trois moyens suivants :
 
 - Via le wifi s'il est encore accessible et en éditant le fichier /etc/wpa_supplicant.conf
-- Via le port USB 
+- Via le port USB, en utilisant l'adresse raspberry.local et en modifiant le fichier /etc/wpa_supplicant.conf
+- En enlevant la carte flash, et en éditant le fichier wpa_supplicant.conf sur le file system accessible en FAT32 (D: par exemple).
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDM1MDIyNSwtMTU3NjE2NzAzMywxND
-I3NjU5NzgwLC0xODY4NTg2NSwyMDM2ODkwMTMzLDIwMjg2NjUz
-MDcsLTg3ODM3MjQyMCwxMTQyMDUwMzExLC0xMDgxMTcwMDQyLD
-IwMzM3NTIxNTksLTM5OTM4MzMzNF19
+eyJoaXN0b3J5IjpbMTU1MjIxNDM5LC0xNTc2MTY3MDMzLDE0Mj
+c2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMw
+NywtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEwODExNzAwNDIsMj
+AzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
 -->
