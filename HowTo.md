@@ -210,17 +210,18 @@ Note: un ajustement linéaire ne suffit pas, car on serait alors passé par la c
 
 ## Ecrire l'heure
 
-Le programme (qclock.py)[ associe l'heure courante aux différents symboles à afficher et écrit ces symboles.
+Le programme  [qclock.py](https://github.com/PJO2/qclocktwo/blob/master/display.py) associe l'heure courante aux différents symboles à afficher et écrit ces symboles.
 Il suffit ensuite d'envoyer ces symboles au ruban de leds.
 
 
 # Le chaînage des programmes
 
-La crontab est chargée de réveiller le display toutes les minutes.
+La crontab est chargée de réveiller le display toutes les minutes. Elle lance également la mesure de la luminosité.
+Comme on ne veut pas attendre la mesure, on se base sur le résultat précédent, ce ui
 
 A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjkxNTEwLC0yMDM3NzE1Nzg1LC0xMj
+eyJoaXN0b3J5IjpbNDI5NDQ3MTY2LC0yMDM3NzE1Nzg1LC0xMj
 U2NDE5MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1
 ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMwNywtODc4MzcyNDIwLD
 ExNDIwNTAzMTEsLTEwODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5
