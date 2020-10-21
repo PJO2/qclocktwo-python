@@ -46,7 +46,7 @@ Pendant le démarrage,  le raspberry installe un driver RNIS gadget. Ca ne march
 
 
 Bref, il faut arriver à ça :
-![drivers](https://github.com/PJO2/qclocktwo/raw/master/[driver gadget.png](https://github.com/PJO2/qclocktwo/blob/master/driver%20gadget.png "driver%20gadget.png"))
+![drivers](https://github.com/PJO2/qclocktwo/raw/master/driver%20gadget.png)
 
 ## Possibilité de passer en systemd
 avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
@@ -55,5 +55,5 @@ Seul modifcation LinkLocalAddress=yes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTgyNDg3MF19
+eyJoaXN0b3J5IjpbLTIxNjI3NDI4MV19
 -->
