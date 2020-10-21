@@ -99,8 +99,14 @@ Conformément à l'image
 
 ## mise à l'heure
 
+Le raspberry se met à l'heure via NTP. Il reste à lui configurer le bon fuseau horaire.
+raspi-config s'en charge : 
+raspi-config
+   - 4 localisation
+       - I2 Change Time Zone
+            - choisir Europe/Paris
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTg5NTM1NSwtMTA4MTE3MDA0MiwyMD
-MzNzUyMTU5LC0zOTkzODMzMzRdfQ==
+eyJoaXN0b3J5IjpbMjYzODg3MzAsLTEwODExNzAwNDIsMjAzMz
+c1MjE1OSwtMzk5MzgzMzM0XX0=
 -->
