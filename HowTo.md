@@ -217,13 +217,12 @@ Il suffit ensuite d'envoyer ces symboles au ruban de leds.
 # Le chaînage des programmes
 
 La crontab est chargée de réveiller le display toutes les minutes. Elle lance également la mesure de la luminosité.
-Comme on ne veut pas attendre la mesure, on se base sur le résultat précédent, ce ui
+Comme on ne veut pas attendre la mesure, on se base sur le résultat précédent, ce qui ne devrait pas être très gênant.
 
-A
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5NDQ3MTY2LC0yMDM3NzE1Nzg1LC0xMj
-U2NDE5MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1
-ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMwNywtODc4MzcyNDIwLD
-ExNDIwNTAzMTEsLTEwODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5
-MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbLTIwNzE4NTQ0MDYsLTIwMzc3MTU3ODUsLT
+EyNTY0MTkyNDYsLTE1NzYxNjcwMzMsMTQyNzY1OTc4MCwtMTg2
+ODU4NjUsMjAzNjg5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0Mj
+AsMTE0MjA1MDMxMSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0z
+OTkzODMzMzRdfQ==
 -->
