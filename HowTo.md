@@ -110,9 +110,10 @@ raspi-config
 
 ## lecture de la luminosité
 
-Le raspberry ne semble pas posséder d'
+Le raspberry ne semble pas posséder d'entrée analogique, ce qui aurait été pratique pour mesurer la photo résistance. Le hack suivant nous montre un moyen de s'en passer [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading).
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDc2Njc2OSwtMTA4MTE3MDA0MiwyMD
+eyJoaXN0b3J5IjpbMTE0MjA1MDMxMSwtMTA4MTE3MDA0MiwyMD
 MzNzUyMTU5LC0zOTkzODMzMzRdfQ==
 -->
