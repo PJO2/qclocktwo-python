@@ -96,7 +96,11 @@ pip3 install rpi_ws281x adafruit-circuitpython-neopixel
 
 Conformément à l'image
 ![drivers](https://github.com/PJO2/qclocktwo/raw/master/branchement.png)
+
+## mise à l'heure
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTI4OTQ1LC0xMDgxMTcwMDQyLDIwMz
-M3NTIxNTksLTM5OTM4MzMzNF19
+eyJoaXN0b3J5IjpbLTk1OTg5NTM1NSwtMTA4MTE3MDA0MiwyMD
+MzNzUyMTU5LC0zOTkzODMzMzRdfQ==
 -->
