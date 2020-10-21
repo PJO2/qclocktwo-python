@@ -156,9 +156,27 @@ if __name__ == "__main__":
 root@raspberrypi:/home/pi/lum#
 ```
 
-Pour plus de robustesse, on effectuera plusieurs mesures et on prendra la médiane.
+Pour plus de robustesse, on effectuera 5 mesures et on prendra la médiane.
+
+```
+root@raspberrypi:/home/pi/lum# cat median_lum.py
+
+import lum
+import statistics
+
+m = []
+for i in range(5):
+  m.append ( lum.get_lum() )
+
+print (m)
+print (statistics.median(m))
+root@raspberrypi:/home/pi/lum#
+```
+## lecture de la luminosité
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg1ODY1LDIwMzY4OTAxMzMsMjAyOD
-Y2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEwODExNzAw
-NDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbMTQ4NTc5NzA2OCwtMTg2ODU4NjUsMjAzNj
+g5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMx
+MSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ
+==
 -->
