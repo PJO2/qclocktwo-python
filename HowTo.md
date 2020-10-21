@@ -178,9 +178,15 @@ C'est la librairie rpi-ws281x qui se charge de tout, il suffit de gérer les cou
 
 Par exemple, le programme suivant affiche les couleurs du violet à l'orange en plusieurs niveaux de luminosité.
 
+![nuances](https://github.com/PJO2/qclocktwo/raw/master/nuances.png)
+
+
+## Ecrire l'heure
+
+Le programme display_time associe l'heure aux différents 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNj
-g5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMx
-MSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ
-==
+eyJoaXN0b3J5IjpbLTMyNzc4NTI2MSwxNDI3NjU5NzgwLC0xOD
+Y4NTg2NSwyMDM2ODkwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQy
+MCwxMTQyMDUwMzExLC0xMDgxMTcwMDQyLDIwMzM3NTIxNTksLT
+M5OTM4MzMzNF19
 -->
