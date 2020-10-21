@@ -201,11 +201,15 @@ Le changement du compte wifi peut-être en se connectant au raspberry  par l'un 
 - Via le wifi s'il est encore accessible et en éditant le fichier /etc/wpa_supplicant.conf
 - Via le port USB, en utilisant l'adresse raspberry.local et en modifiant le fichier /etc/wpa_supplicant.conf
 - En enlevant la carte flash, et en éditant le fichier wpa_supplicant.conf sur le file system accessible en FAT32 (D: par exemple).
-- 
+
+
+## Changer la luminosité
+
+Ce paramètre est situé en début du programme qclock.py. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MjIxNDM5LC0xNTc2MTY3MDMzLDE0Mj
-c2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMw
-NywtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEwODExNzAwNDIsMj
-AzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbLTEyNTY0MTkyNDYsLTE1NzYxNjcwMzMsMT
+QyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5MDEzMywyMDI4NjY1
+MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMSwtMTA4MTE3MDA0Mi
+wyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ==
 -->
