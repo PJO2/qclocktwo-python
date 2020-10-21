@@ -113,8 +113,9 @@ raspi-config
 Le raspberry ne semble pas posséder d'entrée analogique, ce qui aurait été pratique pour mesurer la photo résistance. Le hack suivant nous montre un moyen de s'en passer [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading).
 [https://iot4beginners.com/measure-the-intensity-of-light-using-a-photocell/](https://iot4beginners.com/measure-the-intensity-of-light-using-a-photocell/)
 
-
+On chaîne une résistance de 200 Ohms, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODM3MjQyMCwxMTQyMDUwMzExLC0xMD
-gxMTcwMDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
+eyJoaXN0b3J5IjpbOTAxODcyNTY1LC04NzgzNzI0MjAsMTE0Mj
+A1MDMxMSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMz
+MzRdfQ==
 -->
