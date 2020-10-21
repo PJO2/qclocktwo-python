@@ -183,7 +183,29 @@ Par exemple, le programme suivant affiche les couleurs du violet à l'orange en 
 
 ![nuances](https://github.com/PJO2/qclocktwo/raw/master/nuances.png)
 
+```
+root@raspberrypi:/home/pi/rpi-ws281x# cat degrade.py
+import board
+import neopixel
+import time
 
+nLEDs = 14
+pixels = neopixel.NeoPixel(board.D18, nLEDs)
+
+
+def degrade(luminosite):
+   for idx in range(nLEDs):
+       red   = abs ( 128 - idx * ( 256 + 128 ) / nLEDs )
+       green = 256 - abs (  256 - idx * ( 128 + 256 ) / nLEDs )
+       blue  =  256 - red
+       pixels [idx]=  [ red * luminosite / 255, green * luminosite / 255, blue  * luminosite / 255]
+
+for i in range (10, -1, -1):
+    degrade (10*i)
+    time.sleep (1)
+root@raspberrypi:/home/pi/rpi-ws281x#
+```
+Note: un ajustement linéaire ne suffit pas, car on serait alors passé par la couleur rouge et non par les couleurs bleue et verte comme souhaité.
 
 
 ## Ecrire l'heure
@@ -213,8 +235,9 @@ Le changement du compte wifi peut-être en se connectant au raspberry  par l'un 
 Ce paramètre est situé en début du programme qclock.py. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4OTIwNjYxMSwtMTI1NjQxOTI0NiwtMT
-U3NjE2NzAzMywxNDI3NjU5NzgwLC0xODY4NTg2NSwyMDM2ODkw
-MTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzExLC
-0xMDgxMTcwMDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
+eyJoaXN0b3J5IjpbLTIwMzc3MTU3ODUsLTEyNTY0MTkyNDYsLT
+E1NzYxNjcwMzMsMTQyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5
+MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMS
+wtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ==
+
 -->
