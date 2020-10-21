@@ -102,7 +102,7 @@ Conformément à l'image
 
 Le raspberry se met à l'heure via NTP. Il reste à lui configurer le bon fuseau horaire.
 raspi-config s'en charge : 
-raspi-config
+- raspi-config
    - 4 localisation
        - I2 Change Time Zone
             - choisir Europe/Paris
@@ -172,11 +172,11 @@ print (m)
 print (statistics.median(m))
 root@raspberrypi:/home/pi/lum#
 ```
-## lecture de la luminosité
+## affichage ruban de leds
 
+C'est la librairie rpi-ws281x qui se charge de tout, il suffit de 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTc5NzA2OCwtMTg2ODU4NjUsMjAzNj
-g5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMx
-MSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ
-==
+eyJoaXN0b3J5IjpbOTUxNjEyOTAxLC0xODY4NTg2NSwyMDM2OD
+kwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzEx
+LC0xMDgxMTcwMDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
 -->
