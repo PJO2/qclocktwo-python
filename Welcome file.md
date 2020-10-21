@@ -29,10 +29,15 @@ Edition des fichiers suivants dans le file system éditable (/boot)
         psk="xxxx"
     }
 
-- cmdline.txt : insertion de `modules-load=dwc2,g_ether` entre root et quit dans cmdline.txt
+- cmdline.txt : insertion de `modules-load=dwc2,g_ether` entre root et quit 
 - config.txt : ajout de `dtoverlay=dwc2` en fin de fichier
 
 
+Transférer la flash sur le raspberry zero et démarrer (c'est assez long)
+
+## Préparation PC
+
+Pendant le boot du raspberru, récupérer le 
 
 
 ## Possibilité de passer en systemd
@@ -42,5 +47,5 @@ Seul modifcation LinkLocalAddress=yes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDk4MzkzMDksLTgzMDA4OTExMl19
+eyJoaXN0b3J5IjpbMTQ1NDQ1MDQyOSwtODMwMDg5MTEyXX0=
 -->
