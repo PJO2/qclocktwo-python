@@ -50,14 +50,16 @@ Bref, il faut arriver à ça :
 ![drivers](https://github.com/PJO2/qclocktwo/raw/master/driver%20gadget.png)
 
 
-## Possibilité de passer en systemd
+## Utilisation de file system RAM
 
+Pour éviter les écritures en flash, certains répertoires sont déplacés vers des file systems en RAM (format tmpfs).
+
+
+## Possibilité de passer en systemd
 avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
 
 Seule modification LinkLocalAddress=yes au lieu de IPv4 pour utiliser IPv6 en link local.
 
-## Possibilité de passer en systemd
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTY4MTk5NDddfQ==
+eyJoaXN0b3J5IjpbLTE0NjQ3MjQ5MzFdfQ==
 -->
