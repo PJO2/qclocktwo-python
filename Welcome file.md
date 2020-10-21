@@ -10,12 +10,14 @@ Matériel :
 
 # Préparation Raspberry
 
-Récupération de l'OS 
-Branche Buster
-Passage en systemd :
-[https://hackaday.io/project/162164/instructions](https://hackaday.io/project/162164/instructions)
+Récupération de l'OS [sur le site officiel](https://www.raspberrypi.org/downloads/raspberry-pi-os/)
+Prendre la version Buster, prendre image minimale
+
+
+## Possibilité de passer en systemd
+avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
 
 Seul modifcation LinkLocalAddress=yes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2MDQxNDg5LC04MzAwODkxMTJdfQ==
+eyJoaXN0b3J5IjpbLTQ0NzcxNjY0NywtODMwMDg5MTEyXX0=
 -->
