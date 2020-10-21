@@ -90,10 +90,13 @@ Nous utilisons 2 librairies :
 apt install rpi.gpio
 apt install python3-pip
 pip3 install rpi_ws281x adafruit-circuitpython-neopixel
-```
-## Branchement
 
+```
+## Branchements
+
+Conformément à l'image
+![drivers](https://github.com/PJO2/qclocktwo/raw/master/branchement.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODExNzAwNDIsMjAzMzc1MjE1OSwtMz
-k5MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbMTcyNTI4OTQ1LC0xMDgxMTcwMDQyLDIwMz
+M3NTIxNTksLTM5OTM4MzMzNF19
 -->
