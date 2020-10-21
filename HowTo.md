@@ -190,9 +190,16 @@ Il suffit ensuite d'envoyer ces symboles au ruban de leds.
 # Le chaînage des programmes
 
 
+
+# reconfiguration
+
+## Changement du compte wifi
+
+Le changement du compte wifi peut-être fait de 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYxNjcwMzMsMTQyNzY1OTc4MCwtMT
-g2ODU4NjUsMjAzNjg5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0
-MjAsMTE0MjA1MDMxMSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC
-0zOTkzODMzMzRdfQ==
+eyJoaXN0b3J5IjpbLTIwNDM4MDEyMjMsLTE1NzYxNjcwMzMsMT
+QyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5MDEzMywyMDI4NjY1
+MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMSwtMTA4MTE3MDA0Mi
+wyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ==
 -->
