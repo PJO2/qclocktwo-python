@@ -91,8 +91,9 @@ apt install rpi.gpio
 apt install python3-pip
 pip3 install rpi_ws281x adafruit-circuitpython-neopixel
 ```
-## Branc
+## Branchement
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxOTU2OTEzMywyMDMzNzUyMTU5LC0zOT
-kzODMzMzRdfQ==
+eyJoaXN0b3J5IjpbLTEwODExNzAwNDIsMjAzMzc1MjE1OSwtMz
+k5MzgzMzM0XX0=
 -->
