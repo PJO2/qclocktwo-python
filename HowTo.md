@@ -122,9 +122,43 @@ L'idée est de forcer l'état à bas et de mesurer le temps nécessaire à la re
 
 Un petit programme en python qui fait ce travail
 
+```
+root@raspberrypi:/home/pi/lum# cat lum.py
+# a poor man luminosity sensor with digital pins
+# a photoresistor is chained with a 47uF capacitor
+# we set the voltage to zero and count the time to
+# get a high value again
 
+import RPi.GPIO as GPIO
+import time
+
+PIN = 7   # 7 is GPIO4
+
+def get_lum():
+   GPIO.setmode(GPIO.BOARD)
+   GPIO.setup(PIN, GPIO.OUT)
+
+   GPIO.output(PIN,False)
+   time.sleep (0.01)
+
+   GPIO.setup(PIN, GPIO.IN)
+   count = 0
+   while not GPIO.input(PIN):
+     count += 1
+     time.sleep (0.001)
+   GPIO.cleanup (PIN)
+   return count
+
+
+if __name__ == "__main__":
+   print (get_lum())
+
+root@raspberrypi:/home/pi/lum#
+```
+
+Pour plus de robustesse, on effectuera plusieurs mesures et on prendra la médiane.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NzQ2MTczOCwyMDM2ODkwMTMzLDIwMj
-g2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzExLC0xMDgxMTcw
-MDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
+eyJoaXN0b3J5IjpbLTE4Njg1ODY1LDIwMzY4OTAxMzMsMjAyOD
+Y2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEwODExNzAw
+NDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
 -->
