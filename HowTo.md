@@ -118,9 +118,13 @@ Le raspberry est branché entre la photo résistance et la capacité :
 ![drivers](https://github.com/PJO2/qclocktwo/raw/master/photoresistor.png)
 
 La capacité s'opposant au passage du courant, le raspberry doit voir la patte GPIO04 à l'état haut.
-L'idée est de forcer l'état à 
+L'idée est de forcer l'état à bas et de mesurer le temps nécessaire à la remontée à l'état haut: plus il y a de luminosité, plus ce temps est court. 
+
+Un petit programme en python qui fait ce travail
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzczNTE3MSwyMDM2ODkwMTMzLDIwMj
+eyJoaXN0b3J5IjpbLTQ1NzQ2MTczOCwyMDM2ODkwMTMzLDIwMj
 g2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzExLC0xMDgxMTcw
 MDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
 -->
