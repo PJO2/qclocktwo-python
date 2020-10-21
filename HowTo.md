@@ -36,6 +36,8 @@ Edition des fichiers suivants dans le file system éditable (/boot)
 Transférer la flash sur le raspberry zero.
 Brancher le port USB du raspberry sur un port USB du PC (ne pas brancher le port power) et démarrer le raspberry (c'est assez long)
 
+
+
 ## Préparation PC
 
 Pendant le boot du raspberry, installer le service Bonjour sur le PC, à partir du site [d'apple](https://support.apple.com/kb/DL999)
@@ -49,5 +51,5 @@ Seul modifcation LinkLocalAddress=yes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjEyNTQwNzldfQ==
+eyJoaXN0b3J5IjpbLTEyNjQzMjA2MTFdfQ==
 -->
