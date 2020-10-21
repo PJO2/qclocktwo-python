@@ -73,7 +73,7 @@ avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
 
 Seule modification LinkLocalAddress=yes au lieu de IPv4 pour utiliser IPv6 en link local.
 
-Il reste un pb à régler, `/etc/resolv.conf`  a été déplacé vers un file system en tmpfs sur lequel le répertoire `resolve` n'existe pas. Il faut utiliser un service pour le créer 
+Il reste un pb à régler, `/etc/resolv.conf`  a été déplacé vers un file system en tmpfs sur lequel le répertoire `resolve` n'existe pas. DHCP ne modifie donc pas ce fichier et se retrouve sans DNS. Il faut utiliser un service pour le créer 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQ0MTUwNzJdfQ==
+eyJoaXN0b3J5IjpbLTM5OTM4MzMzNF19
 -->
