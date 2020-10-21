@@ -78,9 +78,13 @@ Seule modification LinkLocalAddress=yes au lieu de IPv4 pour utiliser IPv6 en li
 Il reste un pb à régler, `/etc/resolv.conf`  a été déplacé vers un file system en tmpfs sur lequel le répertoire `resolve` n'existe pas. DHCP ne modifie donc pas ce fichier et se retrouve sans DNS. Il faut utiliser un service pour le créer. 
 On peut s'inspirer de `/etc/systemd/system/dbus-fi.w1.wpa_supplicant1.service` ou de `/etc/systemd/system/multi-user.target.wants/raspberrypi-net-mods.service` pour démarrer un service avant le réseau.
 
-## Possibilité de passer en systemd
+## Installation des librairies
 
+Nous utilisons 2 librairies : 
+
+- rpi.GPIO pour le pilotage des broches du GPIO
+- neopixel : 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDE2MDk2NiwyMDMzNzUyMTU5LC0zOT
+eyJoaXN0b3J5IjpbMTYxMjYyMjAxOSwyMDMzNzUyMTU5LC0zOT
 kzODMzMzRdfQ==
 -->
