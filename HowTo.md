@@ -176,9 +176,10 @@ root@raspberrypi:/home/pi/lum#
 
 C'est la librairie rpi-ws281x qui se charge de tout, il suffit de gérer les couleurs dans un tableau et la librairie synchronise les données du tableau avec l'état du ruban de leds.
 
-Par exemple, le programme suivant affiche les couleurs du violet à l'o
+Par exemple, le programme suivant affiche les couleurs du violet à l'orange en plusieurs niveaux de luminosité.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTc1MjE2NiwtMTg2ODU4NjUsMjAzNj
+eyJoaXN0b3J5IjpbMTQyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNj
 g5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMx
 MSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ
 ==
