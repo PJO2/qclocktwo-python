@@ -36,13 +36,13 @@ Edition des fichiers suivants dans le file system éditable (/boot)
 Transférer la flash sur le raspberry zero.
 Brancher le port USB du raspberry sur un port USB du PC (ne pas brancher le port power) et démarrer le raspberry (c'est assez long)
 
-
+![branchement](https://github.com/PJO2/qclocktwo/raw/master/Raspberry-Pi-Zero-Ethernet-Gadget-Pi-Zero-Plugged-Into-Computer.jpg)
 
 ## Préparation PC
 
 Pendant le boot du raspberry, installer le service Bonjour sur le PC, à partir du site [d'apple](https://support.apple.com/kb/DL999)
 
-Pendant le démarrage,  
+Pendant le démarrage,  le raspberry installe un driver RNIS gadget. Ca ne marche pas toujours et on peut se retrouver avec un driver de t
 
 ## Possibilité de passer en systemd
 avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
@@ -51,5 +51,5 @@ Seul modifcation LinkLocalAddress=yes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjQzMjA2MTFdfQ==
+eyJoaXN0b3J5IjpbODgxMTY3NzYzXX0=
 -->
