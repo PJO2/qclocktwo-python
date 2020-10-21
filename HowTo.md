@@ -40,20 +40,24 @@ Brancher le port USB du raspberry sur un port USB du PC (ne pas brancher le port
 
 ## Préparation PC
 
-Pendant le boot du raspberry, installer le service Bonjour sur le PC, à partir du site [d'apple](https://support.apple.com/kb/DL999)
+Pendant le boot du raspberry, installer le service Bonjour sur le PC, à partir du site [d'apple](https://support.apple.com/kb/DL999). La version 2.0.2 est ancienne mais suffisante.
 
 Pendant le démarrage,  le raspberry installe un driver RNIS gadget. Ca ne marche pas toujours et on peut se retrouver avec un driver de type Serial.
-
+Dans ce cas, télécharger le driver ici et l'installer à la main (ie en cliquant sur le .inf)
+[http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 
 Bref, il faut arriver à ça :
 ![drivers](https://github.com/PJO2/qclocktwo/raw/master/driver%20gadget.png)
 
+
 ## Possibilité de passer en systemd
+
 avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
 
-Seul modifcation LinkLocalAddress=yes 
+Seule modification LinkLocalAddress=yes au lieu de IPv4 pour utiliser IPv6 en link local.
 
+## Possibilité de passer en systemd
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjI3NDI4MV19
+eyJoaXN0b3J5IjpbLTExMTY4MTk5NDddfQ==
 -->
