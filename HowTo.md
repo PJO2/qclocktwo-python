@@ -222,15 +222,14 @@ Le programme final se compose de
 -    - false si la led ne doit pas être allumée
 -     - true si la led doit être allumée
 - settings.py qui regroupe les différents paramètres (luminosité, branchements, ...)
-- bright.py qui récupère la luminosité, les leds à afficher et gère enfin le ru
-La crontab est chargée de réveiller le display toutes les minutes. Elle lance également la mesure de la luminosité.
-Comme on ne veut pas attendre la mesure, on se base sur le résultat précédent, ce qui ne devrait pas être très gênant.
+- bright.py qui récupère la luminosité, les leds à afficher et gère enfin le ruban de led
 
-Evidemment, la mesure de la luminosité est écrite dans un file system en tmpfs.
+La crontab est chargée de réveiller ce programme toutes les minutes. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM5OTkzNzAsOTQ5OTQ0MjQwLC0yMD
-cxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5MjQ2LC0xNTc2
-MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAxMz
-MsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEw
-ODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbLTkwODIwOTg0Niw5NDk5NDQyNDAsLTIwNz
+E4NTQ0MDYsLTIwMzc3MTU3ODUsLTEyNTY0MTkyNDYsLTE1NzYx
+NjcwMzMsMTQyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5MDEzMy
+wyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMSwtMTA4
+MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ==
 -->
