@@ -123,7 +123,7 @@ Le raspberry est branché entre la photo résistance et la capacité :
 La capacité s'opposant au passage du courant, le raspberry doit voir la patte GPIO04 à l'état haut.
 L'idée est de forcer l'état à bas et de mesurer le temps nécessaire à la remontée à l'état haut: plus il y a de luminosité, plus ce temps est court. 
 
-Un petit programme en python qui fait ce travail. A notre le changement de l'initialisation par rapport aux exemples de la librairie. En effet, la libraririe 
+Un petit programme en python qui fait ce travail. A notre le changement de l'initialisation par rapport aux exemples de la librairie. En effet, la librairie NeoPixel utilise ce mode, pour évitier les conflits, nous faisons de même.
 
 ```
 root@raspberrypi:/home/pi/lum# cat lum.py
@@ -221,9 +221,9 @@ Comme on ne veut pas attendre la mesure, on se base sur le résultat précédent
 
 Evidemment, la mesure de la luminosité est écrite dans un file system en tmpfs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU0NTA1NDIsOTQ5OTQ0MjQwLC0yMD
-cxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5MjQ2LC0xNTc2
-MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAxMz
-MsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEw
-ODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbLTY1MTY4NTU3OCw5NDk5NDQyNDAsLTIwNz
+E4NTQ0MDYsLTIwMzc3MTU3ODUsLTEyNTY0MTkyNDYsLTE1NzYx
+NjcwMzMsMTQyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5MDEzMy
+wyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMSwtMTA4
+MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ==
 -->
