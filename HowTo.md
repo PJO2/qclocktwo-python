@@ -17,7 +17,7 @@ Transférer l'image sur la flash grâce à [Win32DiskImager](https://sourceforge
 Edition des fichiers suivants dans le file system éditable (/boot)
 
  - ssh: créer un fichier vide
- - wpa_supplicant.conf : créer le fichier de destination :
+ - wpa_supplicant.conf : créer le fichier de configuration du wifi :
 
     ```
     ctrl_interface=DIR=/run/wpa_supplicant     GROUP=netdev
@@ -231,10 +231,10 @@ Le programme final se compose de
 La crontab est chargée de réveiller ce programme toutes les minutes. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2MzA0MTI5LC05MDgyMDk4NDYsOTQ5OT
-Q0MjQwLC0yMDcxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5
-MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LD
-IwMzY4OTAxMzMsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIw
-NTAzMTEsLTEwODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5MzgzMz
-M0XX0=
+eyJoaXN0b3J5IjpbLTEzMjY3MjM0NDMsLTkwODIwOTg0Niw5ND
+k5NDQyNDAsLTIwNzE4NTQ0MDYsLTIwMzc3MTU3ODUsLTEyNTY0
+MTkyNDYsLTE1NzYxNjcwMzMsMTQyNzY1OTc4MCwtMTg2ODU4Nj
+UsMjAzNjg5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0
+MjA1MDMxMSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzOD
+MzMzRdfQ==
 -->
