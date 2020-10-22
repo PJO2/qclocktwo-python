@@ -90,8 +90,9 @@ Nous utilisons 2 librairies :
 apt install rpi.gpio
 apt install python3-pip
 pip3 install rpi_ws281x adafruit-circuitpython-neopixel
-
 ```
+
+
 ## Branchements
 
 Le GPIO du Raspberry est câble de la façon suivante :
@@ -230,8 +231,14 @@ Le programme final se compose de
 
 La crontab est chargée de réveiller ce programme toutes les minutes. 
 
+
+# Paramétrage
+
+Il y a trois façons de prendre la main sur le raspberry :
+
+- via le wifi 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY3MjM0NDMsLTkwODIwOTg0Niw5ND
+eyJoaXN0b3J5IjpbLTEzOTE3Njk3ODYsLTkwODIwOTg0Niw5ND
 k5NDQyNDAsLTIwNzE4NTQ0MDYsLTIwMzc3MTU3ODUsLTEyNTY0
 MTkyNDYsLTE1NzYxNjcwMzMsMTQyNzY1OTc4MCwtMTg2ODU4Nj
 UsMjAzNjg5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0
