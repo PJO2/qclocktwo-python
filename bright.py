@@ -59,5 +59,5 @@ leds = qclock.Get_Display(dd.hour, dd.minute)    # translate time into a 0/1 arr
 
 
 pixels = neopixel.NeoPixel(settings.LEDSTRIP_PIN, settings.nLEDs)
-dimmed_display_with_offset(pixels, leds, lum)             # send RGB code for each 1 in array
+dimmed_display(pixels, leds, lum)             # send RGB code for each 1 in array
 
