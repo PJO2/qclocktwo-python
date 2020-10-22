@@ -218,13 +218,17 @@ Il suffit ensuite d'envoyer ces symboles au ruban de leds.
 
 Le programme final se compose de 
 - lum.py qui récupère la luminosité et renvoie un entier entre 1 et 250
-- qclock.py qui renvoie un tableau de 196 élé
+- qclock.py qui renvoie un tableau de 196 éléments qui sont 
+-    - false si la led ne doit pas être allumée
+-     - true si la led doit être allumée
+- settings.py qui regroupe les différents paramètres (luminosité, branchements, ...)
+- bright.py qui récupère la luminosité, les leds à afficher et gère enfin le ru
 La crontab est chargée de réveiller le display toutes les minutes. Elle lance également la mesure de la luminosité.
 Comme on ne veut pas attendre la mesure, on se base sur le résultat précédent, ce qui ne devrait pas être très gênant.
 
 Evidemment, la mesure de la luminosité est écrite dans un file system en tmpfs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjEzNTMwNjgsOTQ5OTQ0MjQwLC0yMD
+eyJoaXN0b3J5IjpbLTE3MzM5OTkzNzAsOTQ5OTQ0MjQwLC0yMD
 cxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5MjQ2LC0xNTc2
 MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAxMz
 MsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEw
