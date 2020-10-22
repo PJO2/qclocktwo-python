@@ -250,11 +250,14 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 
 [https://raspberrypi.stackexchange.com/questions/105296/pi-zero-w-configuration-to-run-ap-client-mode-on-raspbian-buster-lite](https://raspberrypi.stackexchange.com/questions/105296/pi-zero-w-configuration-to-run-ap-client-mode-on-raspbian-buster-lite)
 [https://hackaday.io/project/162164/instructions](https://hackaday.io/project/162164/instructions)
+[https://hackaday.com/2017/09/29/simultaneous-ap-client-on-the-pi-zero-w/](https://hackaday.com/2017/09/29/simultaneous-ap-client-on-the-pi-zero-w/)  
+[https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
+[http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzUwMTczNywtNzQ5ODAzNTA5LC05MD
-gyMDk4NDYsOTQ5OTQ0MjQwLC0yMDcxODU0NDA2LC0yMDM3NzE1
-Nzg1LC0xMjU2NDE5MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3OD
-AsLTE4Njg1ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMwNywtODc4
-MzcyNDIwLDExNDIwNTAzMTEsLTEwODExNzAwNDIsMjAzMzc1Mj
-E1OSwtMzk5MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbLTIwNjc3MjUwMjAsLTc0OTgwMzUwOSwtOT
+A4MjA5ODQ2LDk0OTk0NDI0MCwtMjA3MTg1NDQwNiwtMjAzNzcx
+NTc4NSwtMTI1NjQxOTI0NiwtMTU3NjE2NzAzMywxNDI3NjU5Nz
+gwLC0xODY4NTg2NSwyMDM2ODkwMTMzLDIwMjg2NjUzMDcsLTg3
+ODM3MjQyMCwxMTQyMDUwMzExLC0xMDgxMTcwMDQyLDIwMzM3NT
+IxNTksLTM5OTM4MzMzNF19
 -->
