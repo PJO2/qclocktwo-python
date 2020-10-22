@@ -244,11 +244,17 @@ En particulier, créer un fichier wpa_supplicant.conf sur le file system de boot
 
 En principe, les seuls paramètres à modifier se situent dans le fichier settings.py.
 
+
+### références
+[https://hackaday.com/2017/09/29/simultaneous-ap-client-on-the-pi-zero-w/](https://hackaday.com/2017/09/29/simultaneous-ap-client-on-the-pi-zero-w/)
+
+[https://raspberrypi.stackexchange.com/questions/105296/pi-zero-w-configuration-to-run-ap-client-mode-on-raspbian-buster-lite](https://raspberrypi.stackexchange.com/questions/105296/pi-zero-w-configuration-to-run-ap-client-mode-on-raspbian-buster-lite)
+[https://hackaday.io/project/162164/instructions](https://hackaday.io/project/162164/instructions)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTgwMzUwOSwtOTA4MjA5ODQ2LDk0OT
-k0NDI0MCwtMjA3MTg1NDQwNiwtMjAzNzcxNTc4NSwtMTI1NjQx
-OTI0NiwtMTU3NjE2NzAzMywxNDI3NjU5NzgwLC0xODY4NTg2NS
-wyMDM2ODkwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQy
-MDUwMzExLC0xMDgxMTcwMDQyLDIwMzM3NTIxNTksLTM5OTM4Mz
-MzNF19
+eyJoaXN0b3J5IjpbMTg3MzUwMTczNywtNzQ5ODAzNTA5LC05MD
+gyMDk4NDYsOTQ5OTQ0MjQwLC0yMDcxODU0NDA2LC0yMDM3NzE1
+Nzg1LC0xMjU2NDE5MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3OD
+AsLTE4Njg1ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMwNywtODc4
+MzcyNDIwLDExNDIwNTAzMTEsLTEwODExNzAwNDIsMjAzMzc1Mj
+E1OSwtMzk5MzgzMzM0XX0=
 -->
