@@ -123,7 +123,7 @@ Le raspberry est branché entre la photo résistance et la capacité :
 La capacité s'opposant au passage du courant, le raspberry doit voir la patte GPIO04 à l'état haut.
 L'idée est de forcer l'état à bas et de mesurer le temps nécessaire à la remontée à l'état haut: plus il y a de luminosité, plus ce temps est court. 
 
-Un petit programme en python qui fait ce travail. A notre le changement de l'initialisation par rapport aux exemples de la librairie. En effet, la librairie NeoPixel utilise ce mode, pour évitier les conflits, nous faisons de même.
+Un petit programme en python qui fait ce travail. A notre le changement de l'initialisation par rapport aux exemples de la librairie. En effet, la librairie NeoPixel utilise ce mode, pour éviter les conflits, nous faisons de même.
 
 ```
 root@raspberrypi:/home/pi/lum# cat lum.py
@@ -216,14 +216,17 @@ Il suffit ensuite d'envoyer ces symboles au ruban de leds.
 
 # Le chaînage des programmes
 
+Le programme final se compose de 
+- lum.py qui récupère la luminosité et renvoie un entier entre 1 et 250
+- qclock.py qui renvoie un tableau de 196 élé
 La crontab est chargée de réveiller le display toutes les minutes. Elle lance également la mesure de la luminosité.
 Comme on ne veut pas attendre la mesure, on se base sur le résultat précédent, ce qui ne devrait pas être très gênant.
 
 Evidemment, la mesure de la luminosité est écrite dans un file system en tmpfs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTY4NTU3OCw5NDk5NDQyNDAsLTIwNz
-E4NTQ0MDYsLTIwMzc3MTU3ODUsLTEyNTY0MTkyNDYsLTE1NzYx
-NjcwMzMsMTQyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5MDEzMy
-wyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMSwtMTA4
-MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ==
+eyJoaXN0b3J5IjpbLTE2NjEzNTMwNjgsOTQ5OTQ0MjQwLC0yMD
+cxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5MjQ2LC0xNTc2
+MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAxMz
+MsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEw
+ODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
 -->
