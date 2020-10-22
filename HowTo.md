@@ -123,7 +123,7 @@ Le raspberry est branché entre la photo résistance et la capacité :
 La capacité s'opposant au passage du courant, le raspberry doit voir la patte GPIO04 à l'état haut.
 L'idée est de forcer l'état à bas et de mesurer le temps nécessaire à la remontée à l'état haut: plus il y a de luminosité, plus ce temps est court. 
 
-Un petit programme en python qui fait ce travail
+Un petit programme en python qui fait ce travail. A notre le changement de l'initialisation par rapport aux exemples de la librairie. En effet, la libraririe 
 
 ```
 root@raspberrypi:/home/pi/lum# cat lum.py
@@ -135,10 +135,10 @@ root@raspberrypi:/home/pi/lum# cat lum.py
 import RPi.GPIO as GPIO
 import time
 
-PIN = 7   # 7 is GPIO4
+PIN = 4   # 4 for GPIO4
 
 def get_lum():
-   GPIO.setmode(GPIO.BOARD)
+   GPIO.setmode(GPIO.BCM)
    GPIO.setup(PIN, GPIO.OUT)
 
    GPIO.output(PIN,False)
@@ -221,9 +221,9 @@ Comme on ne veut pas attendre la mesure, on se base sur le résultat précédent
 
 Evidemment, la mesure de la luminosité est écrite dans un file system en tmpfs.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5OTQ0MjQwLC0yMDcxODU0NDA2LC0yMD
-M3NzE1Nzg1LC0xMjU2NDE5MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2
-NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMwNy
-wtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEwODExNzAwNDIsMjAz
-Mzc1MjE1OSwtMzk5MzgzMzM0XX0=
+eyJoaXN0b3J5IjpbLTE5NjU0NTA1NDIsOTQ5OTQ0MjQwLC0yMD
+cxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5MjQ2LC0xNTc2
+MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OTAxMz
+MsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEsLTEw
+ODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0XX0=
 -->
