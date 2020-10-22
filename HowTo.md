@@ -240,12 +240,14 @@ Il y a trois façons de prendre la main sur le raspberry :
 - via le port USB à l'aide des drivers RNDIS
 - en retirant la carte flash et en l'éditant depuis un PC
 
-Les paramètres courant
+En particulier, créer un fichier wpa_supplicant.conf sur le file system de boot (au format FAT, donc lisisble depuis un PC), permet de re configurer le wifi.
+
+En pr
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTk1MTU2NywtOTA4MjA5ODQ2LDk0OT
-k0NDI0MCwtMjA3MTg1NDQwNiwtMjAzNzcxNTc4NSwtMTI1NjQx
-OTI0NiwtMTU3NjE2NzAzMywxNDI3NjU5NzgwLC0xODY4NTg2NS
-wyMDM2ODkwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQy
-MDUwMzExLC0xMDgxMTcwMDQyLDIwMzM3NTIxNTksLTM5OTM4Mz
-MzNF19
+eyJoaXN0b3J5IjpbLTE5MDI5NDYyMDAsLTkwODIwOTg0Niw5ND
+k5NDQyNDAsLTIwNzE4NTQ0MDYsLTIwMzc3MTU3ODUsLTEyNTY0
+MTkyNDYsLTE1NzYxNjcwMzMsMTQyNzY1OTc4MCwtMTg2ODU4Nj
+UsMjAzNjg5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAsMTE0
+MjA1MDMxMSwtMTA4MTE3MDA0MiwyMDMzNzUyMTU5LC0zOTkzOD
+MzMzRdfQ==
 -->
