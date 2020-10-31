@@ -61,7 +61,7 @@ Le petit script ci-dessous fait le boulot :
 cat >> /etc/fstab <<EOF  
 tmpfs /tmp tmpfs defaults,noatime,nosuid,size=10m 0 0  
 tmpfs /var/log tmpfs defaults,noatime,nosuid,mode=0755,size=25m 0 0  
-tmpfs /var/run tmpfs defaults,noatime,nosuid,mode=0755,size=2m 0 0  
+tmpfs /var/run tmpfs defaults,noatime,nosuid,mode=0755,size=5m 0 0  
 EOF
 
 rm -r /var/tmp  
@@ -74,6 +74,15 @@ Suite d'après l'article https://medium.com/@andreas.schallwig/how-to-make-your-
 Suppression du swap :
 ajout de `noswap` en fin de fichier `/boot/cmdline.txt`
 
+```
+sudo mv /etc/resolv.conf /var/run/dhcpcd.resolv.conf
+sudo ln -s /var/run/dhcpcd.resolv.conf /etc/resolv.conf
+
+sudo rm -rf /var/lib/dhcp /var/lib/dhcpcd5 /var/lock
+sudo ln -s /var/run /var/lib/dhcp
+sudo ln -s /var/run /var/lib/dhcpcd5
+sudo ln -s /var/run /var/lock
+```
 
 
 
@@ -261,10 +270,11 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg4MjE2NjMsLTIwNjc3MjUwMjAsLT
-c0OTgwMzUwOSwtOTA4MjA5ODQ2LDk0OTk0NDI0MCwtMjA3MTg1
-NDQwNiwtMjAzNzcxNTc4NSwtMTI1NjQxOTI0NiwtMTU3NjE2Nz
-AzMywxNDI3NjU5NzgwLC0xODY4NTg2NSwyMDM2ODkwMTMzLDIw
-Mjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzExLC0xMDgxMT
-cwMDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
+eyJoaXN0b3J5IjpbMTQyNzQ2MDEyMywtMjEwODgyMTY2MywtMj
+A2NzcyNTAyMCwtNzQ5ODAzNTA5LC05MDgyMDk4NDYsOTQ5OTQ0
+MjQwLC0yMDcxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5Mj
+Q2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIw
+MzY4OTAxMzMsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNT
+AzMTEsLTEwODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0
+XX0=
 -->
