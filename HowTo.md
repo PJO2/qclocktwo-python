@@ -92,6 +92,19 @@ sudo ln -s /var/run /var/lock
 ```
 
 
+Passage des file systems en ro :
+
+```
+root@raspberrypi:/home/pi# cat /etc/fstab
+proc            /proc           proc    defaults          0       0
+PARTUUID=5d3b2133-01  /boot           vfat    defaults,ro          0       2
+PARTUUID=5d3b2133-02  /               ext4    defaults,noatime,ro  0       1
+tmpfs /tmp tmpfs defaults,noatime,nosuid,size=10m 0 0
+tmpfs /var/log tmpfs defaults,noatime,nosuid,mode=0755,size=15m 0 0
+tmpfs /var/run tmpfs defaults,noatime,nosuid,mode=0755,size=5m 0 0
+root@raspberrypi:/home/pi#
+```
+
 
 ## Possibilité de passer en systemd
 avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
@@ -277,11 +290,11 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjA3MzQzNSwtMTk3Njg0NDk0LC0yMD
-Y1MTg4NjE2LC01NjQ0MDMwNDYsLTIxMDg4MjE2NjMsLTIwNjc3
-MjUwMjAsLTc0OTgwMzUwOSwtOTA4MjA5ODQ2LDk0OTk0NDI0MC
-wtMjA3MTg1NDQwNiwtMjAzNzcxNTc4NSwtMTI1NjQxOTI0Niwt
-MTU3NjE2NzAzMywxNDI3NjU5NzgwLC0xODY4NTg2NSwyMDM2OD
-kwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzEx
-LC0xMDgxMTcwMDQyXX0=
+eyJoaXN0b3J5IjpbLTQxNjYzODgyMiwtODcyMDczNDM1LC0xOT
+c2ODQ0OTQsLTIwNjUxODg2MTYsLTU2NDQwMzA0NiwtMjEwODgy
+MTY2MywtMjA2NzcyNTAyMCwtNzQ5ODAzNTA5LC05MDgyMDk4ND
+YsOTQ5OTQ0MjQwLC0yMDcxODU0NDA2LC0yMDM3NzE1Nzg1LC0x
+MjU2NDE5MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Nj
+g1ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMwNywtODc4MzcyNDIw
+LDExNDIwNTAzMTFdfQ==
 -->
