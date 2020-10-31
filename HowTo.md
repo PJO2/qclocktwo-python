@@ -80,16 +80,16 @@ sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=0/' /etc/dphys-swapfile
 Modification annexes (lock et surtout dhcp)
 
 ```
-sudo mv /etc/resolv.conf /var/run/dhcpcd.resolv.conf
-sudo ln -s /var/run/dhcpcd.resolv.conf /etc/resolv.conf
- mv /var/lib/systemd/random-seed /var/run
-root@raspberrypi:/home/pi# ln -s /var/run/random-seed /var/lib/systemd/random-seed
+mv /etc/resolv.conf /var/run/dhcpcd.resolv.conf
+ln -s /var/run/dhcpcd.resolv.conf /etc/resolv.conf
+mv /var/lib/systemd/random-seed /var/run
+ln -s /var/run/random-seed /var/lib/systemd/random-seed
 
 sudo rm -rf /var/lib/dhcp /var/lib/dhcpcd5 /var/lock
 sudo ln -s /var/run /var/lib/dhcp
 sudo ln -s /var/run /var/lib/dhcpcd5
 sudo ln -s /var/run /var/lock
-root@raspberrypi:/home/pi# ln -s /var/run/random-seed /var/lib/systemd/random-seed```
+```
 
 
 
@@ -277,11 +277,11 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc2NDAxODMzLC0xOTc2ODQ0OTQsLTIwNj
-UxODg2MTYsLTU2NDQwMzA0NiwtMjEwODgyMTY2MywtMjA2Nzcy
-NTAyMCwtNzQ5ODAzNTA5LC05MDgyMDk4NDYsOTQ5OTQ0MjQwLC
-0yMDcxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5MjQ2LC0x
-NTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OT
-AxMzMsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEs
-LTEwODExNzAwNDJdfQ==
+eyJoaXN0b3J5IjpbLTg3MjA3MzQzNSwtMTk3Njg0NDk0LC0yMD
+Y1MTg4NjE2LC01NjQ0MDMwNDYsLTIxMDg4MjE2NjMsLTIwNjc3
+MjUwMjAsLTc0OTgwMzUwOSwtOTA4MjA5ODQ2LDk0OTk0NDI0MC
+wtMjA3MTg1NDQwNiwtMjAzNzcxNTc4NSwtMTI1NjQxOTI0Niwt
+MTU3NjE2NzAzMywxNDI3NjU5NzgwLC0xODY4NTg2NSwyMDM2OD
+kwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzEx
+LC0xMDgxMTcwMDQyXX0=
 -->
