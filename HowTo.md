@@ -72,6 +72,8 @@ ln -s /var/spool/mqueue /tmp
 Suite d'après l'article https://medium.com/@andreas.schallwig/how-to-make-your-raspberry-pi-file-system-read-only-raspbian-stretch-80c0f7be7353
 
 Suppression du swap :
+ajout de `noswap` en fin de fichier `/boot/cmdline.txt`
+
 
 
 
@@ -259,10 +261,10 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NTUyMDUyLC0yMDY3NzI1MDIwLC03ND
-k4MDM1MDksLTkwODIwOTg0Niw5NDk5NDQyNDAsLTIwNzE4NTQ0
-MDYsLTIwMzc3MTU3ODUsLTEyNTY0MTkyNDYsLTE1NzYxNjcwMz
-MsMTQyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5MDEzMywyMDI4
-NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMSwtMTA4MTE3MD
-A0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ==
+eyJoaXN0b3J5IjpbLTIxMDg4MjE2NjMsLTIwNjc3MjUwMjAsLT
+c0OTgwMzUwOSwtOTA4MjA5ODQ2LDk0OTk0NDI0MCwtMjA3MTg1
+NDQwNiwtMjAzNzcxNTc4NSwtMTI1NjQxOTI0NiwtMTU3NjE2Nz
+AzMywxNDI3NjU5NzgwLC0xODY4NTg2NSwyMDM2ODkwMTMzLDIw
+Mjg2NjUzMDcsLTg3ODM3MjQyMCwxMTQyMDUwMzExLC0xMDgxMT
+cwMDQyLDIwMzM3NTIxNTksLTM5OTM4MzMzNF19
 -->
