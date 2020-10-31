@@ -65,7 +65,7 @@ tmpfs /var/run tmpfs defaults,noatime,nosuid,mode=0755,size=5m 0 0
 EOF
 
 rm -r /var/tmp  
-ln -s /var/tmp /tmp  
+ln -s /tmp /var/tmp 
 ln -s /var/spool/mqueue /tmp
 ```
 
@@ -294,11 +294,11 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyNzE3ODE4LC04NzIwNzM0MzUsLTE5Nz
-Y4NDQ5NCwtMjA2NTE4ODYxNiwtNTY0NDAzMDQ2LC0yMTA4ODIx
-NjYzLC0yMDY3NzI1MDIwLC03NDk4MDM1MDksLTkwODIwOTg0Ni
-w5NDk5NDQyNDAsLTIwNzE4NTQ0MDYsLTIwMzc3MTU3ODUsLTEy
-NTY0MTkyNDYsLTE1NzYxNjcwMzMsMTQyNzY1OTc4MCwtMTg2OD
-U4NjUsMjAzNjg5MDEzMywyMDI4NjY1MzA3LC04NzgzNzI0MjAs
-MTE0MjA1MDMxMV19
+eyJoaXN0b3J5IjpbLTI5NjE1NTUwNiw3NjI3MTc4MTgsLTg3Mj
+A3MzQzNSwtMTk3Njg0NDk0LC0yMDY1MTg4NjE2LC01NjQ0MDMw
+NDYsLTIxMDg4MjE2NjMsLTIwNjc3MjUwMjAsLTc0OTgwMzUwOS
+wtOTA4MjA5ODQ2LDk0OTk0NDI0MCwtMjA3MTg1NDQwNiwtMjAz
+NzcxNTc4NSwtMTI1NjQxOTI0NiwtMTU3NjE2NzAzMywxNDI3Nj
+U5NzgwLC0xODY4NTg2NSwyMDM2ODkwMTMzLDIwMjg2NjUzMDcs
+LTg3ODM3MjQyMF19
 -->
