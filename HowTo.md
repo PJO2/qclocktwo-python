@@ -73,7 +73,7 @@ Suite d'après l'article https://medium.com/@andreas.schallwig/how-to-make-your-
 
 Suppression du swap :
 ajout de `noswap` en fin de fichier `/boot/cmdline.txt`
-
+`dphys-swapfile swapoff`
 ```
 sudo mv /etc/resolv.conf /var/run/dhcpcd.resolv.conf
 sudo ln -s /var/run/dhcpcd.resolv.conf /etc/resolv.conf
@@ -270,11 +270,11 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NDQwMzA0NiwtMjEwODgyMTY2MywtMj
-A2NzcyNTAyMCwtNzQ5ODAzNTA5LC05MDgyMDk4NDYsOTQ5OTQ0
-MjQwLC0yMDcxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5Mj
-Q2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIw
-MzY4OTAxMzMsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNT
-AzMTEsLTEwODExNzAwNDIsMjAzMzc1MjE1OSwtMzk5MzgzMzM0
-XX0=
+eyJoaXN0b3J5IjpbLTIwNjUxODg2MTYsLTU2NDQwMzA0NiwtMj
+EwODgyMTY2MywtMjA2NzcyNTAyMCwtNzQ5ODAzNTA5LC05MDgy
+MDk4NDYsOTQ5OTQ0MjQwLC0yMDcxODU0NDA2LC0yMDM3NzE1Nz
+g1LC0xMjU2NDE5MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3ODAs
+LTE4Njg1ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMwNywtODc4Mz
+cyNDIwLDExNDIwNTAzMTEsLTEwODExNzAwNDIsMjAzMzc1MjE1
+OSwtMzk5MzgzMzM0XX0=
 -->
