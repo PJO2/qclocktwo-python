@@ -68,6 +68,8 @@ rm -r /var/tmp
 ln -s /var/tmp /tmp  
 ln -s /var/spool/mqueue /tmp
 ```
+Suppression du swap :
+
 
 
 ## Possibilité de passer en systemd
@@ -254,10 +256,10 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjc3MjUwMjAsLTc0OTgwMzUwOSwtOT
-A4MjA5ODQ2LDk0OTk0NDI0MCwtMjA3MTg1NDQwNiwtMjAzNzcx
-NTc4NSwtMTI1NjQxOTI0NiwtMTU3NjE2NzAzMywxNDI3NjU5Nz
-gwLC0xODY4NTg2NSwyMDM2ODkwMTMzLDIwMjg2NjUzMDcsLTg3
-ODM3MjQyMCwxMTQyMDUwMzExLC0xMDgxMTcwMDQyLDIwMzM3NT
-IxNTksLTM5OTM4MzMzNF19
+eyJoaXN0b3J5IjpbNDg3MTA0MDQ3LC0yMDY3NzI1MDIwLC03ND
+k4MDM1MDksLTkwODIwOTg0Niw5NDk5NDQyNDAsLTIwNzE4NTQ0
+MDYsLTIwMzc3MTU3ODUsLTEyNTY0MTkyNDYsLTE1NzYxNjcwMz
+MsMTQyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5MDEzMywyMDI4
+NjY1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMSwtMTA4MTE3MD
+A0MiwyMDMzNzUyMTU5LC0zOTkzODMzMzRdfQ==
 -->
