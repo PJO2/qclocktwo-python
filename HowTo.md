@@ -105,6 +105,9 @@ tmpfs /var/run tmpfs defaults,noatime,nosuid,mode=0755,size=5m 0 0
 root@raspberrypi:/home/pi#
 ```
 
+echo "alias ro='sudo mount -o remount,ro / ; sudo mount -o remount,ro /boot'" >> .bashrc
+echo "alias rw='sudo mount -o remount,rw / ; sudo mount -o remount,rw /boot'" >> .bashrc
+
 
 ## Possibilité de passer en systemd
 avec le tutoriel [https://hackaday.io/project/162164/instructions](ici)
@@ -290,11 +293,11 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjYzODgyMiwtODcyMDczNDM1LC0xOT
-c2ODQ0OTQsLTIwNjUxODg2MTYsLTU2NDQwMzA0NiwtMjEwODgy
-MTY2MywtMjA2NzcyNTAyMCwtNzQ5ODAzNTA5LC05MDgyMDk4ND
-YsOTQ5OTQ0MjQwLC0yMDcxODU0NDA2LC0yMDM3NzE1Nzg1LC0x
-MjU2NDE5MjQ2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Nj
-g1ODY1LDIwMzY4OTAxMzMsMjAyODY2NTMwNywtODc4MzcyNDIw
-LDExNDIwNTAzMTFdfQ==
+eyJoaXN0b3J5IjpbLTE1MzUxNTEwNzAsLTg3MjA3MzQzNSwtMT
+k3Njg0NDk0LC0yMDY1MTg4NjE2LC01NjQ0MDMwNDYsLTIxMDg4
+MjE2NjMsLTIwNjc3MjUwMjAsLTc0OTgwMzUwOSwtOTA4MjA5OD
+Q2LDk0OTk0NDI0MCwtMjA3MTg1NDQwNiwtMjAzNzcxNTc4NSwt
+MTI1NjQxOTI0NiwtMTU3NjE2NzAzMywxNDI3NjU5NzgwLC0xOD
+Y4NTg2NSwyMDM2ODkwMTMzLDIwMjg2NjUzMDcsLTg3ODM3MjQy
+MCwxMTQyMDUwMzExXX0=
 -->
