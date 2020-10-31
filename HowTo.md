@@ -82,12 +82,14 @@ Modification annexes (lock et surtout dhcp)
 ```
 sudo mv /etc/resolv.conf /var/run/dhcpcd.resolv.conf
 sudo ln -s /var/run/dhcpcd.resolv.conf /etc/resolv.conf
+ mv /var/lib/systemd/random-seed /var/run
+root@raspberrypi:/home/pi# ln -s /var/run/random-seed /var/lib/systemd/random-seed
 
 sudo rm -rf /var/lib/dhcp /var/lib/dhcpcd5 /var/lock
 sudo ln -s /var/run /var/lib/dhcp
 sudo ln -s /var/run /var/lib/dhcpcd5
 sudo ln -s /var/run /var/lock
-```
+root@raspberrypi:/home/pi# ln -s /var/run/random-seed /var/lib/systemd/random-seed```
 
 
 
@@ -275,11 +277,11 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY4NDQ5NCwtMjA2NTE4ODYxNiwtNT
-Y0NDAzMDQ2LC0yMTA4ODIxNjYzLC0yMDY3NzI1MDIwLC03NDk4
-MDM1MDksLTkwODIwOTg0Niw5NDk5NDQyNDAsLTIwNzE4NTQ0MD
-YsLTIwMzc3MTU3ODUsLTEyNTY0MTkyNDYsLTE1NzYxNjcwMzMs
-MTQyNzY1OTc4MCwtMTg2ODU4NjUsMjAzNjg5MDEzMywyMDI4Nj
-Y1MzA3LC04NzgzNzI0MjAsMTE0MjA1MDMxMSwtMTA4MTE3MDA0
-MiwyMDMzNzUyMTU5XX0=
+eyJoaXN0b3J5IjpbMjc2NDAxODMzLC0xOTc2ODQ0OTQsLTIwNj
+UxODg2MTYsLTU2NDQwMzA0NiwtMjEwODgyMTY2MywtMjA2Nzcy
+NTAyMCwtNzQ5ODAzNTA5LC05MDgyMDk4NDYsOTQ5OTQ0MjQwLC
+0yMDcxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5MjQ2LC0x
+NTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIwMzY4OT
+AxMzMsMjAyODY2NTMwNywtODc4MzcyNDIwLDExNDIwNTAzMTEs
+LTEwODExNzAwNDJdfQ==
 -->
