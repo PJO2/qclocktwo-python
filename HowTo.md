@@ -60,7 +60,7 @@ Le petit script ci-dessous fait le boulot :
 ```
 cat >> /etc/fstab <<EOF  
 tmpfs /tmp tmpfs defaults,noatime,nosuid,size=10m 0 0  
-tmpfs /var/log tmpfs defaults,noatime,nosuid,mode=0755,size=25m 0 0  
+tmpfs /var/log tmpfs defaults,noatime,nosuid,mode=0755,size=15m 0 0  
 tmpfs /var/run tmpfs defaults,noatime,nosuid,mode=0755,size=5m 0 0  
 EOF
 
@@ -270,7 +270,7 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzQ2MDEyMywtMjEwODgyMTY2MywtMj
+eyJoaXN0b3J5IjpbLTU2NDQwMzA0NiwtMjEwODgyMTY2MywtMj
 A2NzcyNTAyMCwtNzQ5ODAzNTA5LC05MDgyMDk4NDYsOTQ5OTQ0
 MjQwLC0yMDcxODU0NDA2LC0yMDM3NzE1Nzg1LC0xMjU2NDE5Mj
 Q2LC0xNTc2MTY3MDMzLDE0Mjc2NTk3ODAsLTE4Njg1ODY1LDIw
