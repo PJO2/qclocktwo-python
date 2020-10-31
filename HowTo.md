@@ -66,7 +66,6 @@ EOF
 
 rm -r /var/tmp  
 ln -s /tmp /var/tmp 
-ln -s /var/spool/mqueue /tmp
 ```
 
 Suite d'après l'article https://medium.com/@andreas.schallwig/how-to-make-your-raspberry-pi-file-system-read-only-raspbian-stretch-80c0f7be7353
@@ -294,11 +293,11 @@ En principe, les seuls paramètres à modifier se situent dans le fichier settin
 [https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading](https://learn.adafruit.com/basic-resistor-sensor-reading-on-raspberry-pi/basic-photocell-reading)
 [http://web1.moddevices.com/shared/mod-duo-rndis.zip](http://web1.moddevices.com/shared/mod-duo-rndis.zip)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjE1NTUwNiw3NjI3MTc4MTgsLTg3Mj
-A3MzQzNSwtMTk3Njg0NDk0LC0yMDY1MTg4NjE2LC01NjQ0MDMw
-NDYsLTIxMDg4MjE2NjMsLTIwNjc3MjUwMjAsLTc0OTgwMzUwOS
-wtOTA4MjA5ODQ2LDk0OTk0NDI0MCwtMjA3MTg1NDQwNiwtMjAz
-NzcxNTc4NSwtMTI1NjQxOTI0NiwtMTU3NjE2NzAzMywxNDI3Nj
-U5NzgwLC0xODY4NTg2NSwyMDM2ODkwMTMzLDIwMjg2NjUzMDcs
-LTg3ODM3MjQyMF19
+eyJoaXN0b3J5IjpbLTEyNjQwNjU5NzUsLTI5NjE1NTUwNiw3Nj
+I3MTc4MTgsLTg3MjA3MzQzNSwtMTk3Njg0NDk0LC0yMDY1MTg4
+NjE2LC01NjQ0MDMwNDYsLTIxMDg4MjE2NjMsLTIwNjc3MjUwMj
+AsLTc0OTgwMzUwOSwtOTA4MjA5ODQ2LDk0OTk0NDI0MCwtMjA3
+MTg1NDQwNiwtMjAzNzcxNTc4NSwtMTI1NjQxOTI0NiwtMTU3Nj
+E2NzAzMywxNDI3NjU5NzgwLC0xODY4NTg2NSwyMDM2ODkwMTMz
+LDIwMjg2NjUzMDddfQ==
 -->
